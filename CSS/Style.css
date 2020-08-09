@@ -35,6 +35,11 @@ h1 {
     color: black;
     font-size: 5rem;
 }
+.h1list {
+    padding: 1rem;
+    border-top: 1px solid;
+    border-left: 3px solid;
+}
 
 .container {
     max-width: 500px;
@@ -57,7 +62,9 @@ h1 {
     padding: auto;
 }
 p:nth-child(2n) {
-    background-color: darkcyan;
+    background: rgb(27,185,200);
+background: linear-gradient(0deg, rgba(27,185,200,1) 22%, rgba(27,185,200,1) 54%, rgba(16,110,110,1) 96%);
+border-radius: 5px;
 
 }
 .customheader{
@@ -162,6 +169,7 @@ p:nth-child(2n) {
 
 .tab {
     border: 1px solid black;
+    box-shadow: #345b75cc 0px 0px 20px;
 
 }
 .tab td,th  {
@@ -215,13 +223,17 @@ a:visited {
 }
 
 tr:nth-child(2n) {
-    background-color: teal;
+    background: rgb(0,36,34);
+background: linear-gradient(0deg, rgba(0,36,34,1) 4%, rgba(18,177,223,1) 51%, rgba(0,128,128,1) 96%);
 }
-
 p::first-letter {
     font-size: 35px;
 }
-
+.gerahmt {
+border-width: 7px; 
+border-color: #2593b4;
+border-style: dotted;
+}
  
 .Navigation ul {
     background-color: #323536;
