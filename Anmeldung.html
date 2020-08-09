@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zoo Dekadenzia</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale1">
+    <meta name="description" content="HTML">
+</head>
+
+<body>
+    <header>
+        <div class="customheader background-tiger">
+        
+    </div>
+
+
+
+        <nav class="Navigation">
+            <ul>
+                <strong> <li> <a href="Index.html">Willkommen!</a></li> </strong>
+                <strong><li> <a href="Info.html">Informationen</a></li></strong>
+                 <strong><li> <a href="Anmeldung.html">Anmeldung</a></li></strong>
+                <strong><li> </li></strong>
+            </ul>
+            
+        </nav>
+
+    </header> 
+    <main>
+        
+
+        <h1> Anmeldung</h1>
+        <div class="row containertwo">
+            <div class="anForm">
+        <form method="get" action="ausgabe.html">
+            <div>
+                <i class="icon-pen"></i>
+                <label for="vorname">Vor- und Nachname</label>
+                <input type="text" name="vorname" id="vorname">
+            </div>
+            <div>
+                <i class="icon-mail"></i>
+                <label for="emailadresse">E-Mail</label>
+                <input type="email" name="emailadresse" id="emailadresse">
+            </div>
+            <div>
+                <i class="icon-calender"></i>
+                <label for="datum">Datum</label>
+                <input type="date" name="datum" id="datum">
+            </div>
+            <div>
+                <i class="icon-timer"></i>
+                <label for="time">Zeit</label>
+                <input type="time" name="time" id="time">
+            </div>
+            <div>
+                <p>Hat es ihnen gefallen?</p>
+                <input type="radio" name="gefallen" id="ja" value="ja">
+                <label for="ja">Ja</label>
+                <input type="radio" name="gefallen" id="nein" value="nein">
+                <label for="nein">Nein</label>
+            </div>
+            <div>
+                <p>Würden sie uns weiter empfehlen?</p>
+                <input type="radio" name="empfehlen" id="ja" value="ja">
+                <label for="ja">Ja</label>
+                <input type="radio" name="empfehlen" id="nein" value="nein">
+                <label for="nein">Nein</label>
+            </div>
+            <div>
+             <label for="lieblingstier">Lieblingstier</label>
+             <input type="text" list="tliste" name="lieblingstier" id="lieblingstier">
+             <datalist id="tliste">
+                 <option value="Zebra"></option>
+                 <option value="Löwe"></option>
+                 <option value="Fischotter"></option>
+                 <option value="Tarantel"></option>
+             </datalist>
+            </div>
+            <div>
+                <label for="kommentar">Kommentar</label>
+                <textarea rows="5" cols="20" name="kommentar" id="kommentar"></textarea>
+            </div>
+            <div>
+                <label for="info">Besucher Informationen</label>
+                <select name="info" id="info">
+                    <option value="1">Familienausflug</option>
+                    <option value="2">Alleine unterwegs</option>
+                    <option value="3">Gruppenausflug</option>
+                    <option value="4">Ausflug mit Freunden</option>
+                    <option value="5">Was anderes</option>
+                </select>
+            </div>
+            <input type="submit">
+            <br>
+            </form>
+                </div>
+            <img src ="Bilder/Ticket.jpg" alt="Tickets kaufen" class="pic gerahmt">
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <p>&copy; 2020 Übung 1</p>
+    </footer>
+</body>
+
+</html>
